@@ -3,7 +3,7 @@ import math as m
 
 def area_of_circle():
    radius = int(input("enter the radius of the circle: "))
-   area = m.pi * pow(radius, 2)
+   area = m.pi * m.pow(radius, 2)
    print(f"the area of the circle wit radius {radius} is {area}")
 def perimeter_of_circle():
    radius = int(input("enter the radius of the circle: "))
